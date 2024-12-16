@@ -1,0 +1,11 @@
+#spring.cloud.config.discovery.enabled=true
+#spring.cloud.discovery.enabled=true
+#eureka.client.register-with-eureka=false
+#eureka.client.fetch-registry=false
+eureka.client.service-url.defaultZone=http://localhost:8060/eureka
+spring.cloud.discovery.enabled=true
+eureka.client.register-with-eureka=true
+eureka.client.fetch-registry=false
+eureka.server.enable-self-preservation=false
+eureka.server.eviction-interval-timer-in-ms=60000
+eureka.server.max-threads-for-peer-replication=0
